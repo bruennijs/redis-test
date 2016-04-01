@@ -1,0 +1,23 @@
+version: '2'
+services:
+  redis-cli:
+    container_name: redis-cli
+    image: redis
+    network_mode: "bridge"
+    links: 
+      - redis-test:redis
+    #docker run -it --link redis-test:redis --rm redis sh -c 'exec redis-cli -h "$REDIS_PORT_6379_TCP_ADDR" -p "$REDIS_PORT_6379_TCP_PORT"'
+    entrypoint: /bin/sh
+    command: sh -c 'exec redis-cli -h "$REDIS_PORT_6379_TCP_ADDR" -p "$REDIS_PORT_6379_TCP_PORT"'
+    stdin_open: true
+    tty: true
+    read_only: false
+
+  redis-test:
+    container_name: redis-test
+    image: redis
+    #image: filestorage_app:latest
+    network_mode: "bridge"
+    volumes:
+     - ./redis-data:/data
+
