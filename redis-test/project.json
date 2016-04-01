@@ -7,11 +7,12 @@
     "emitEntryPoint": true
   },
 	"dependencies": {
-    "StackExchange.Redis": "1.0.488"
+    "StackExchange.Redis": "1.0.488",
+    "log4net": "1.2.11"
   },
   "projectUrl": "",
   "licenseUrl": "",
   "frameworks": {
-    "net451": { }
+    "dnx451": { }
   }
 }
