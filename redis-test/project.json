@@ -4,7 +4,7 @@
   "authors": [ "Oliver Brüntje" ],
   "tags": [ "" ],
   "compilationOptions": {
-    "emitEntryPoint": false
+    "emitEntryPoint": true
   },
 	"dependencies": {
     "StackExchange.Redis": "1.0.488"
