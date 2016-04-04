@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/385F0EE8-3B3F-4C5A-8339-1F5C69B8364D/fe/6206b365/JsonSerializer.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/385F0EE8-3B3F-4C5A-8339-1F5C69B8364D/fe/6206b365/JsonSerializer.cs" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/06/2d94cd26/ConfigurationOptions.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/06/2d94cd26/ConfigurationOptions.cs" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/95/7ef79cae/ConnectionMultiplexer.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/95/7ef79cae/ConnectionMultiplexer.cs" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/9e/5b39d471/IDatabaseAsync.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/9e/5b39d471/IDatabaseAsync.cs" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/dc/fab0314b/EndPointCollection.cs">
+      <sourceFolder url="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/dc/fab0314b/EndPointCollection.cs" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>

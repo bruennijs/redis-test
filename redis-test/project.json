@@ -5,11 +5,18 @@
   "tags": [ "" ],
   "compilationOptions": {
     "emitEntryPoint": true
-  },
-	"dependencies": {
+  },"dependencies": {
     "StackExchange.Redis": "1.0.488",
-    "log4net": "1.2.11"
+    "log4net": "1.2.11",
+    "NUnit": "3.2.0",
+    "NUnit.Runners": "3.2.0",
+    "NUnitLite": "3.2.0-*",
+	"Newtonsoft.Json": "8.0.2"
   },
+	"commands": {
+		"test": "tools/nunit3-console.exe ./bin/Debug/dnx451/redis-test.dll",
+		"testlite": "redis-test"
+	},
   "projectUrl": "",
   "licenseUrl": "",
   "frameworks": {

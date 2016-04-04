@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b2ad06-e387-4238-8141-773a481de171" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis-test/RedisConnectionFactory.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis-test/Serializer/AggregateSerializer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis-test/Smgw.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redis-test/Car.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-test/AggregateRepository.cs" afterPath="$PROJECT_DIR$/redis-test/AggregateRepository.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs" afterPath="$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-test/Program.cs" afterPath="$PROJECT_DIR$/redis-test/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-test/project.json" afterPath="$PROJECT_DIR$/redis-test/project.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis-test/project.lock.json" afterPath="$PROJECT_DIR$/redis-test/project.lock.json" />
@@ -25,31 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-test/project.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AggregateRepositoryTest.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis-test.xproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-test/redis-test.xproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -59,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/redis-test/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="46" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -68,8 +54,58 @@
       <file leaf-file-name="AggregateRepository.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDatabase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2669">
+              <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConnectionFactory.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-test/RedisConnectionFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionMultiplexer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/95/7ef79cae/ConnectionMultiplexer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4301">
+              <caret line="253" column="12" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationOptions.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/06/2d94cd26/ConfigurationOptions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndPointCollection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/dc/fab0314b/EndPointCollection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -78,8 +114,8 @@
       <file leaf-file-name="project.lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-test/project.lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="553">
+              <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -94,18 +130,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/redis-test/Class1.cs" />
-        <option value="$PROJECT_DIR$/redis-test/AggregateRepository.cs" />
+        <option value="$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/9e/5b39d471/IDatabaseAsync.cs" />
+        <option value="$PROJECT_DIR$/redis-test/project.lock.json" />
+        <option value="$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/385F0EE8-3B3F-4C5A-8339-1F5C69B8364D/fe/6206b365/JsonSerializer.cs" />
+        <option value="$PROJECT_DIR$/redis-test/Serializer/AggregateSerializer.cs" />
+        <option value="$PROJECT_DIR$/redis-test/Car.cs" />
+        <option value="$PROJECT_DIR$/redis-test/redis-test.dll.config.cs" />
+        <option value="$PROJECT_DIR$/redis-test/redis-test.dll.config.xml" />
         <option value="$PROJECT_DIR$/redis-test/project.json" />
         <option value="$PROJECT_DIR$/redis-test/Program.cs" />
+        <option value="$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/95/7ef79cae/ConnectionMultiplexer.cs" />
+        <option value="$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs" />
+        <option value="$PROJECT_DIR$/redis-test/AggregateRepository.cs" />
+        <option value="$PROJECT_DIR$/redis-test/RedisConnectionFactory.cs" />
         <option value="$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="-1" />
     <option name="y" value="28" />
-    <option name="width" value="1914" />
-    <option name="height" value="1028" />
+    <option name="width" value="1922" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,7 +200,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/redis-test.sln" />
-    <property name="SearchEverywhereHistoryKey" value="Cl&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/Class1.cs" />
+    <property name="SearchEverywhereHistoryKey" value="Red&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/RedisConnectionFactory.cs&#10;Ag&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/AggregateRepository.cs&#10;pro&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/project.json&#10;project&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/project.json&#10;Aggre&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/AggregateRepository.cs&#10;projec&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/project.lock.json&#10;proj&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/project.json&#10;Aggreg&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/AggregateRepositoryTest.cs&#10;Cl&#9;FILE&#9;file:///usr/local/src/git/redis-test/redis-test/Class1.cs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
@@ -193,27 +241,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="28" width="1914" height="1028" extended-state="0" />
+    <frame x="-1" y="28" width="1922" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25882354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17571884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33736265" sideWeight="0.50213903" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33736265" sideWeight="0.49572194" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33515283" sideWeight="0.4914803" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33736265" sideWeight="0.50427806" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -232,6 +280,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/redis-test.xproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/project.lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis-test/project.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -252,7 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -300,7 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -371,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,33 +486,61 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-test/Class1.cs" />
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/9e/5b39d471/IDatabaseAsync.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" column="9" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis-test/redis-test.xproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-test/Car.cs">
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/385F0EE8-3B3F-4C5A-8339-1F5C69B8364D/fe/6206b365/JsonSerializer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepository.cs">
+    <entry file="file://$PROJECT_DIR$/redis-test/Serializer/AggregateSerializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-test/project.lock.json">
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/385F0EE8-3B3F-4C5A-8339-1F5C69B8364D/fe/6206b365/JsonSerializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="186">
+          <caret line="723" column="19" selection-start-line="723" selection-start-column="8" selection-end-line="723" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/Car.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/redis-test.dll.config.cs" />
+    <entry file="file://$PROJECT_DIR$/redis-test/redis-test.dll.config.xml" />
+    <entry file="file://$PROJECT_DIR$/redis-test/redis-test.dll.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/project.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -437,23 +548,87 @@
     <entry file="file://$PROJECT_DIR$/redis-test/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="46" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-test/project.json">
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/06/2d94cd26/ConfigurationOptions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="1496">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/95/7ef79cae/ConnectionMultiplexer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="253" column="12" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/7c/0d043a3c/IDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/project.lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/JetBrains/Shared/v05/DecompilerCache/decompiler/6B4638CF-E642-4747-AA92-6A39392F6800/dc/fab0314b/EndPointCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/RedisConnectionFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/Smgw.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-test/AggregateRepositoryTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>

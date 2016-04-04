@@ -18,6 +18,8 @@ services:
     image: redis
     #image: filestorage_app:latest
     network_mode: "bridge"
+    expose:
+      - 6379/tcp
     volumes:
      - ./redis-data:/data
 
